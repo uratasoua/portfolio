@@ -1,0 +1,108 @@
+.pworksTitle {
+    position: relative;
+    right: 30px;
+    display: flex;
+    margin-top: 120px;
+    width: 900px;
+    margin: 120px auto 80px;
+}
+
+.pworksTitle h2 {
+    margin-left: 40px;
+    font-weight: 600;
+    line-height: 80px;
+}
+
+.pworksLine {
+    width: 30px;
+    height: 80px;
+    background-color: #93A1AA;
+}
+
+/* work1 */
+.pworkArea {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.pworkAreaBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pworkTitle {
+    position: relative;
+    right: 20px;
+    display: flex;
+}
+
+.pworkTitle h1 {
+    margin: 0 16px;
+    line-height: 60px;
+}
+
+.pworkTitleBox {
+    width: 280px;
+}
+
+.pworkTitleBox h3 {
+    font-weight:bold;
+    line-height: 60px;
+    margin-bottom: 28px;
+}
+
+.pworkTitleBox p {
+    line-height: 2em;
+}
+
+.pworkLine {
+    width: 20px;
+    height: 60px;
+    background-color: #93A1AA;
+}
+
+.pworkTime {
+    margin-top: 8px;
+    color: grey;
+}
+
+.pworkImg {
+    width: 450px;
+    height: 1200px;
+    background-color: #93A1AA;
+}
+
+.pworkGithub {
+    margin: 120px 0 200px;
+    height: 100px;
+    border: solid 2px #93A1AA;
+    border-radius: 12px;
+}
+
+.githubTitle {
+    text-align: center;
+    width: 140px;
+    position: relative;
+    bottom: 12px;
+    left: 40px;
+    font-size: 14px;
+    color: grey;
+    background-color: #f0f0f0;
+}
+
+.githubImgText {
+    display: flex;
+}
+
+.githubImg {
+    width: 120px;
+    height: 60px;
+    background-color: #93A1AA;
+    margin-left: 40px;
+    margin-right: 32px;
+}
+
+.githubImgText p {
+    line-height: 60px;
+    font-weight: 600;
+}

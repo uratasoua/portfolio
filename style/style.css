@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+body {
+    background-color: #f0f0f0;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 0.05em;
+}
+h2 {
+    font-size: 32px;
+    letter-spacing: 0.05em;
+}
+h3 {
+    font-size: 24px;
+    letter-spacing: 0.05em;
+}
+h4 {
+    font-size: 20px;
+    letter-spacing: 0.05em;
+}
+p {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+}
+a {
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: #202020;
+}
+
+/* ヘッダー */
+.header {
+    border: solid 1px #f9f9f9;
+    background-color: #93A1AA;
+    height: 90px;
+    width: 100%;
+    box-shadow: 1px 1px 10px#202020;
+}
+
+.headerBox {
+    width: 900px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 90px;
+}
+
+.title h2{
+    color: #f9f9f9;
+    font-weight: 600;
+}
+
+.headerList ul {
+    display: flex;
+}
+
+.headerListText{
+    font-size: 20px;
+    font-weight: 600;
+    color: #f9f9f9;
+}
+
+.headerList ul li:nth-child(2) {
+    margin: 0 20px;
+}
+
+/* プロフィール欄 */
+.profile {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 40px auto 0;
+}
+
+.myDataBox {
+    width: 420px;
+    background-color: #f9f9f9;
+}
+
+.myImage {
+    margin: 48px 80px 32px;
+    width: 250px;
+    height: 280px;
+    background-color: #93A1AA;
+}
+
+.myData {
+    margin: 0 40px 48px;
+}
+
+.myData h3{
+    font-weight: 600;
+}
+
+.myJob {
+    margin: 8px 0 16px;
+}
+
+.subData {
+    margin-top: 16px;
+}
+
+.myMail {
+    margin: 8px 0;
+}
+
+/* キャリア＆スキル */
+.career-skills {
+    margin-left: 30px;
+}
+/* キャリア欄 */
+.career {
+    margin-bottom: 40px;
+}
+
+.career h3 {
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+
+.careerGraphBox {
+    display: flex;
+}
+
+.graph {
+    margin-left: 30px;
+}
+
+.verticalLine {
+    position: relative;
+    left: 10px;
+    width: 4px;
+    height: 28px;
+    background-color: gray;
+}
+
+.circle {
+    width: 24px;
+    height: 24px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.graphText {
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.graphTextBox {
+    height: 52px;
+    display: flex;
+}
+
+.seirin p{
+    line-height: 48px;
+}
+
+.time {
+    line-height: 48px;
+    margin-right: 16px;
+}
+
+
+/* スキル */
+.skills {
+    background-color: #f9f9f9;
+}
+
+.skillsTitle {
+    height: 50px;
+    background-color: #93A1AA;
+}
+
+.triangle {
+    margin-left: 32px;
+    width: 0px;
+    border-top: 24px solid #93A1AA;
+    border-right: 28px solid transparent;
+    border-left: 28px solid transparent;
+}
+
+.skillsTitle h3 {
+    line-height: 50px;
+    font-weight: 600;
+    color: #f9f9f9;
+    margin-left: 32px;
+}
+
+.skillList {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 56px 40px;
+}
+
+.skillListBox h4 {
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-bottom: 20px;
+}
+
+.skillListBox p {
+    letter-spacing: 0;
+}
+
+.works {
+    width: 900px;
+    margin: 80px auto 80px;
+}
+
+.worksTitle {
+    position: relative;
+    right: 30px;
+    display: flex;
+}
+
+.worksTitle h3{
+    margin-left: 40px;
+    line-height: 80px;
+    font-weight: 600;
+}
+
+.worksLine {
+    width: 30px;
+    height: 80px;
+    background-color: #93A1AA;
+}
+
+.worksBox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.work {
+    width: 280px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.workTitle {
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+.workImg {
+    width: 280px;
+    height: 220px;
+    background-color: #93A1AA;
+    border-radius: 50%;
+}
+
+.workText {
+    text-align: left;
+}
