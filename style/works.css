@@ -2,7 +2,6 @@
     position: relative;
     right: 30px;
     display: flex;
-    margin-top: 120px;
     width: 900px;
     margin: 120px auto 80px;
 }
@@ -19,10 +18,50 @@
     background-color: #93A1AA;
 }
 
+/* タブメニュー */
+.pworksList {
+    width: 900px;
+    margin: 0 auto 48px;
+}
+
+.pworksTab {
+    display: flex;
+}
+
+.pworksTab li {
+    line-height: 60px;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+}
+
+.pworksTab li.active a {
+    background-color: #f0f0f0;
+}
+
 /* work1 */
 .pworkArea {
     width: 900px;
     margin: 0 auto;
+    display: none; /*はじめは非表示*/
+    opacity: 0; /*透過0*/
+}
+
+.pworkArea.is-active {
+    display: block; /*表示*/
+    animation-name: displayAnime; /*ふわっと表示させるためのアニメーション*/
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes displayAnime {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .pworkAreaBox {
