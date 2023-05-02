@@ -35,8 +35,15 @@
     text-align: center;
 }
 
+
+
+.pworksTab_link {
+    color: #999;
+}
+
 .pworksTab li.active a {
-    background-color: #f0f0f0;
+    color: #1b1b1b;
+    font-weight: bold;
 }
 
 /* work1 */
@@ -91,7 +98,7 @@
 }
 
 .pworkTitleBox p {
-    line-height: 2em;
+    line-height: 1.8em;
 }
 
 .pworkLine {
@@ -106,9 +113,21 @@
 }
 
 .pworkImg {
+    overflow: hidden;
     width: 450px;
     height: 1200px;
     background-color: #93A1AA;
+    border: 3px solid #93A1AA;
+    border-radius: 20px;
+}
+
+.pworkImg img {
+    border-radius: 20px;
+    width: 450px;
+    height: 1200px;
+    object-fit: cover;
+    object-position: 0 0;
+    transition: all 0.5s;
 }
 
 .pworkGithub {
@@ -136,9 +155,14 @@
 .githubImg {
     width: 120px;
     height: 60px;
-    background-color: #93A1AA;
-    margin-left: 40px;
+    margin-left: 48px;
     margin-right: 32px;
+    text-align: center;
+}
+
+.githubImg img {
+    width: 60px;
+    height: 60px;
 }
 
 .githubImgText p {
